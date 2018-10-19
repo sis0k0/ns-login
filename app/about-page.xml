@@ -1,0 +1,19 @@
+<Page navigatingTo="navigatingTo">
+    <Page.actionBar>
+        <ActionBar title="About">
+            <NavigationButton
+                text="Go Back"
+                android.systemIcon="ic_menu_back"
+                tap="goBack"/>
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <Label
+            text="{{ info }}"
+            fontSize="30"
+            textWrap="true"
+            class="text-center p-30" 
+        />
+    </StackLayout>
+</Page>

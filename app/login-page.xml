@@ -33,6 +33,7 @@
 
         <Button
             text="Sign in"
+            tap="{{ login }}"
             class="btn btn-primary"
             style="margin: 80px 0"
         />

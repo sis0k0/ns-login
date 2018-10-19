@@ -1,4 +1,4 @@
-import { Observable } from 'tns-core-modules/data/observable';
+import { Observable } from "tns-core-modules/data/observable";
 
 export class HelloWorldModel extends Observable {
     constructor() {
@@ -6,11 +6,11 @@ export class HelloWorldModel extends Observable {
     }
 
     goToAbout(args) {
-        this.navigate(args, 'about-page');
+        this.navigate(args, "about-page");
     }
 
     goToLogin(args) {
-        this.navigate(args, 'login-page');
+        this.navigate(args, "login-page");
     }
 
     navigate(args, route: string) {

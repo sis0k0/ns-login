@@ -1,0 +1,14 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Admin Panel"></ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <Label
+            text="{{ message }}"
+            fontSize="30"
+            textWrap="true"
+            class="text-center p-30" 
+        />
+    </StackLayout>
+</Page>

@@ -1,11 +1,10 @@
-import { EventData, Observable } from "tns-core-modules/data/observable";
+import { EventData } from "tns-core-modules/data/observable";
 import { Page } from "tns-core-modules/ui/page";
+import { LoginViewModel } from "./login-view-model";
 
 export function navigatingTo(args: EventData) {
     const page = <Page>args.object;
-    const vm = new Observable();
-    vm.set("info", "This application is awesome. So is HMR.");
-    page.bindingContext = vm;
+    page.bindingContext = new LoginViewModel();
 }
 
 export function goBack(args: EventData) {

@@ -5,6 +5,6 @@
     </Page.actionBar>
     <StackLayout class="p-30">
         <Button text="About" tap="{{ goToAbout }}" class="btn"/>
-        <Button text="Login" tap="{{ onTap }}" class="btn btn-primary"/>
+        <Button text="Login" tap="{{ goToLogin }}" class="btn btn-primary"/>
     </StackLayout>
 </Page>

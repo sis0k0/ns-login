@@ -6,7 +6,15 @@ export class HelloWorldModel extends Observable {
     }
 
     goToAbout(args) {
+        this.navigate(args, 'about-page');
+    }
+
+    goToLogin(args) {
+        this.navigate(args, 'login-page');
+    }
+
+    navigate(args, route: string) {
         const page = args.object.page;
-        page.frame.navigate('about-page');
+        page.frame.navigate(route);
     }
 }

@@ -1,4 +1,4 @@
-<Page navigatingTo="navigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <Page.actionBar>
         <ActionBar title="About">
             <NavigationButton

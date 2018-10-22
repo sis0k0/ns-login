@@ -10,7 +10,7 @@ This application contains a simple login form with a [Kinvey](https://devcenter.
 npm i
 ```
 
-2. Install NativeScript CLI 5.0. Or NativeScript CLI rc if you are reading this before Nov, 2019.
+2. Install NativeScript CLI 5.0. Or NativeScript CLI rc if you are reading this before Nov, 2018.
 
 ```
 npm i -g nativescript@rc
